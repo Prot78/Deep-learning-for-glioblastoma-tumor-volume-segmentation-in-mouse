@@ -2,6 +2,6 @@
 
 0.94 DSC (94% accuracy)              
 
-![hello](demo/Stack.gif)
+![hello](demo/630_FLAIR.gif)
 
 ## Data preparation
