@@ -1,0 +1,98 @@
+EF = 0.000 %
+
+SV (microL) = 0.000
+
+CO (mL/min) = 0.000
+
+Vmax (microL) = 597.766, end-diastolic frame = 1
+Vmin (microL) = 597.766, end-systolic frame = 1
+
+Pixels X * Y = 256 * 256
+
+Volume tot (frame)
+597.766
+
+Areas tot
+frame no 1
+39.026
+43.878
+51.764
+55.292
+59.088
+60.144
+59.863
+55.652
+49.683
+44.299
+37.927
+26.569
+14.581
+
+Red Volume (frame)
+0.000
+
+Red Areas
+frame no 1
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+
+Red Density:	1.000 
+Red Mass (frame)
+0.000
+
+Orange Volume(frame)
+0.000
+
+Orange Areas
+frame no 1
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+0.000
+
+Orange Density:	1.000 
+Orange Mass (frame)
+0.000
+
+Blue Volume (frame)
+597.766
+
+Blue Areas
+frame no 1
+39.026
+43.878
+51.764
+55.292
+59.088
+60.144
+59.863
+55.652
+49.683
+44.299
+37.927
+26.569
+14.581
+
+Blue Density:	1.000 
+Blue Mass (frame)
+597.766
