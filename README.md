@@ -3,3 +3,5 @@
 0.94 DSC (94% accuracy)
 
 ![hello](demo/Stack.gif)
+
+## Data preparation
