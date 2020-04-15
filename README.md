@@ -1,4 +1,4 @@
-# CNN Brain Tumor segmentation in pre-clinical setting
+# Deep learning for glioblastoma tumor volume segmentation in mouse
 
 __0.94 DSC (94% accuracy)________________Predicted segmentation_________________Manual segmentation        
 
