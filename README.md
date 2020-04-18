@@ -6,4 +6,4 @@ __0.94 DSC (94% accuracy)________________Predicted segmentation_________________
 
 ## Data preparation
 
-![hello](images/Fig_2.jpeg).
+![hello](images/Fig_2.jpg).
