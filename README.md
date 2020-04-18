@@ -18,7 +18,7 @@ The dicom files produced by our Bruker MRI scanner had to be converted in 256x25
 For the FLAIR dataset, a manual segmentation was also applied to generate a “brain mask” for skull-stripping segmentation purposes and saved in dicom format. A text file (named “vol_brain.txt”) was generated for each mouse containing brain volume information.   
 2.	“8 bits masks”. A MatLab (R2018a (9.4.0) 64-bits) program was used to convert the masks, both for tumor and brain, created in the previous segmentation step, from a dicom format to a 8bits Tiff image 256x256 matrix. 
 3.	“RGB images”. A Python 3.7 program was used to generate RGB Tiff 256x256 images from the MRI dicom format datasets.
-Instruction sheets in addition to the ClinicalVolumes software and MatLab and Python programs can be downloaded above in the "Code" section.
+Instruction sheets in addition to the ClinicalVolumes software and MatLab and Python programs can be downloaded above in the "Data preparation" section.
 ### Automatic segmentation
 A detailed description of the automatic segmentation algorithm and how to run it are given in the work of Buda et al. [Buda M, Saha A, Mazurowski MA. Association of genomic subtypes of lower-grade gliomas with shape features automatically extracted by a deep learning algorithm. Comput Biol Med. 2019;109:218-25]. 
 To initialize the training phase, MRI images and related masks fed the CNN U-net model. A minimum of 16 volumes were used. The data were selected homogeneously throughout the tumor volume range and then divided in two groups: small tumor (<15 mm3) and middlesize_to_large tumor (> 15 mm3). In order to achieve reliable and robust “weights” few factors results crucial during the training phase:
