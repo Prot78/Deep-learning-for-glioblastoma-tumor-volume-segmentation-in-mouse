@@ -33,7 +33,7 @@ Both training and inference original codes undertake small changes in order to b
 The deep learning program calculated the Dice coefficient (DSC) of each animal highlighting the level of similarity and accuracy between manual and automatic segmentation. In addition to the DSC analysis, the segmented areas were further analyzed by comparing the volumes obtained by each animal (“volumes” analysis) and by slice (“slice by slice” area analysis). “Volumes” and “slice by slice” analysis undergo a two-sided P value, test of correlation (Pearson’s coefficient) and agreement (Bland-Altman). P value less than .05 was considered statistically different.
 
 ![hello](images/Fig_2.jpg).
-
+ 
 
 ## Results
 Dicom data files, which represent the most common MRI data format, were uploaded in the ClinicalVolume software. This in-house computer software was successfully used to manually segment tumor and brain (skull-stripping) regions. As an output, masks were generated in dicom format and volumes reported in a text file together with other information related to the segmentation. This step was pivotal to then validate the CNN automatic segmentation with the manual ClinicalVolumes approach. The MatLab (8 bits masks) and the Python (RGB images) programs efficiently transformed MRI dicoms in images of a suitable format for automatic segmentation. More than 20 animals were typically segmented for the small and middlesize_to_large group.
@@ -41,3 +41,5 @@ Regarding the automatic segmentation, the entire dataset and then the two groups
 A visual and graphical representation of the FLAIR middlesize_to_large group for “volumes” without and with skull-stripping is reported in the figure below. The values expressed by the graphs did not emphasize significant differences between the two cases. In addition, MRI images related to good and poor segmented correlation are shown where the manual segmentation area contour is highlighted in green while the automatic in red color.
 
 ![hello](images/Fig_3.jpg).
+
+Figure. FLAIR “Volumes” full image and “Volumes” skull-stripping representation of segmented image and data analysis for the middle_to_large group. A) Example of good and poor accuracy volume image. B), C), D) represent respectively test of accuracy (DSC analysis) of single animal FLAIR volume data; test of correlation (Pearson’s coefficient); test of agreement (Bland-Altman). E), F), G), represent respectively test of accuracy (DSC analysis) of skull-stripping single animal FLAIR volume data; test of correlation (Pearson’s coefficient); test of agreement (Bland-Altman). H) Example of good and poor accuracy skull-stripping volume image.
