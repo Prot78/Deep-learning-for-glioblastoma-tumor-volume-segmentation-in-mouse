@@ -5,3 +5,5 @@ __0.94 DSC (94% accuracy)________________Predicted segmentation_________________
 ![hello](images/630_FLAIR.gif).   ![hello](images/630_FLAIR_pred.png).     ![hello](images/630_FLAIR_true.png).
 
 ## Data preparation
+
+![hello](images/Fig2.jpeg).
